@@ -1,0 +1,37 @@
+.login-admin{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #490435;
+    // background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 84%);
+    // background-image: linear-gradient(315deg, #20206d 0%, #57053e 84%);
+
+    .logoRest {
+        font-size: 20px; /* Ajusta el tamaño según tus necesidades */
+        position: relative;
+        // top: 10px;
+        margin-bottom: 7%;
+        left: 120px;
+        height: 150px;
+        width: 150px;
+    }
+
+    &__content {
+        background-color: #fff;
+        padding: 50px 50px;
+        border-radius: 20px;
+        width: 500px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        -moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+        > h3{
+            align-items: center;
+            font-size: 35px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+}
